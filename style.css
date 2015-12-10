@@ -7,7 +7,6 @@ html {
 
 body {
     margin: auto;
-    padding: .5in;
     width: 8.5in;
     height: 11in;
 }
@@ -42,7 +41,7 @@ h3 {
 h4 {
     font-weight: normal;
     font-style: italic;
-    margin: 5px 0;
+    margin: 5px 0 0 0;
     display: inline-block;
     width: 100%;
 }
@@ -76,6 +75,10 @@ ul {
     padding-left: 2em;
 }
 
+h4 + ul {
+    margin-top: 0;
+}
+
 ul, p {
     margin: 5px 0 10px 0;
 }
@@ -101,6 +104,15 @@ ul.inline li + li:before {
 .right {
     float: right;
     text-align: right;
+}
+
+.half {
+    width: 47.5%;
+    float: left;
+}
+
+.half + .half {
+    margin-left: 5%;
 }
 
 /* specific */
