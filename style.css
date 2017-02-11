@@ -22,6 +22,7 @@ h1 {
 }
 
 h2 {
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -44,6 +45,12 @@ h4 {
     margin: 5px 0 0 0;
     display: inline-block;
     width: 100%;
+}
+
+h5 {
+    font-weight: bold;
+    /*display: inline;*/
+    margin: 0;
 }
 
 header {
@@ -132,4 +139,17 @@ ul.inline li + li:before {
 .experiece {
     width: 70%;
     float: right;
+}
+
+.highlights {
+    width: 95%;
+    padding: 10px 2.5%;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 300;
+    display: inline-block
+}
+
+.page-break {
+    page-break-after: always;
 }
