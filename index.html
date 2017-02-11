@@ -10,80 +10,61 @@
     <h1 id="name">JONATHAN FRANKEL</h1>
     <ul id="contact-info">
         <li>jonathan@wikiterra.net</li>
-        <li>lnked.in/jon-frankel</li>
-        <li>917-515-XXXX</li>
+        <li>http://lnked.in/jon-frankel</li>
+        <li>917.515.XXXX</li>
     </ul>
 </header>
 
-<section class="about">
-    <ul class="inline">
+<section class="highlights">
+    <ul class="inline half">
         <li>Web Application Developer</li>
         <li>8 years experience in development, systems admininstration, and support<br></li>
         <li>Additional experience in management and product ownership</li>
     </ul>
-</section>
 
-<section class="sidebar">
-    <h2>Details</h2>
-
-    <h3>Skills</h3>
-    <ul class="inline">
+    <ul class="inline half">
         <li>Python</li>
         <li>PHP</li>
-        <li>MVC Frameworks (Symfony, Ferris)</li>
+        <li>MVC Frameworks (Symfony, Ferris)<br></li>
         <li>Javascript</li>
         <li>JQuery</li>
         <li>Angular</li>
+        <li>RESTful services<br></li>
+        <li>Bootstrap</li>
         <li>MySQL</li>
         <li>Linux/LAMP</li>
-        <li>GIT (GitHub Flow)</li>
+        <li>GIT (GitHub Flow)<br></li>
         <li>Unit/<wbr>Functional Testing</li>
         <li>Agile/Scrum</li>
     </ul>
-
-    <h3>Projects</h3>
-    <p>
-        Implemented a web based HR and account management platform for School of Rock. Used by corporate to check
-        status of franchise locations (e.g., safety compliance), and used by franchise owners to manage their staff
-        safety tests and documents, and account access. Built on App Engine with Ferris, a Python web framework
-        (similar to Django).
-    </p>
-    <p>
-        Implemented a lightweight content management system for littlewing.com. Uses permission scheme based on
-        membership in Google Groups to allow franchise owners editing access to only their locations. Also features
-        a Google Maps based class finder. Built on App Engine in Python.
-    </p>
-
-    <h3>Education</h3>
-    <h4>Indiana University, 2009-2011 Grad School, Cognitive Science</h4>
-    <ul>
-        <li>Taught intro to cognitive science course twice</li>
-    </ul>
-    <h4>Brooklyn College, 2007 B.A., Philosophy</h4>
-    <ul>
-        <li>Focus on cognitive science and computer science</li>
-    </ul>
 </section>
 
-<section class="experiece">
-    <h2>Experience</h2>
+<section class="projects">
+    <h2>Projects</h2>
 
     <h3>Caxy Interactive</h3>
 
     <h4>
         <span class="left">Web Application Developer</span>
-        <span class="right">2015 - Present</span>
+        <span class="right">Jan 2015 - Present</span>
     </h4>
+    <h5>CDPAccess</h5>
     <ul>
         <li>
-            Full stack web application developer, working in PHP + Symfony with the PHPUnit test suite
+            Caxy is a web development agency offering professional services. I work on a project called CDPAccess for our client, International Code Council (ICC).
         </li>
         <li>
-            Main project is CDPAccess, a platform for public voting on proposed modifications to government ratified
-            safety codes
+            ICC guides the legislative process around creating safety codes that are adopted by local governments (e.g., building, plumbing codes).
+            CDPAccess is the web application that Caxy developed to allow that legislative process to happen online. Proposals are made for changes
+            to codes books, and then various voting phases allow those proposals to ultimately be ratified or dropped.
         </li>
         <li>
-            Most pages offer in-page editing features, using Angular or JQuery
+            Tech stack: built in PHP using Symfony, an MVC framework; MySQL with Doctrine, an ORM; PHPUnit for unit and functional testing;
+            Bootstrap for the UI framework; Angular and JQuery for single page editing interfaces, loading from and saving to many entities; Git for VCS.
+        </li>
+        <li>
+            Our team (between 6-10 developers over the past year) uses GitHub and follows the GitHub flow for coordinating pull requests, code review, and merges.
+            We also use JIRA for project management and follow Agile/Scrum practices (e.g., daily standups, collecting user stories, sprint planning, backlog grooming, etc.).
         </li>
     </ul>
 
@@ -91,97 +72,115 @@
 
     <h4>
         <span class="left">Director, Corporate Information Systems</span>
-        <span class="right">2014 - 2015</span>
+        <span class="right">Jan 2014 - Jan 2015</span>
     </h4>
-    <ul>
-        <li>
-            Built a web-based HR system that allows franchise owners to manage staff and allows corporate to enforce
-            compliance across various metrics
-        </li>
-        <li>
-            Plan out IT strategy and scope out projects within specified budget
-        </li>
-        <li>
-            Negotiate contracts with vendors and consultants, and manage project execution
-        </li>
-        <li>
-            Manage internal staff and external vendors for the main website redesign and platform migration
-        </li>
-    </ul>
-
     <h4>
         <span class="left">Senior Manager, Information Systems</span>
-        <span class="right">2013 - 2014</span>
+        <span class="right">Jan 2013 - Jan 2014</span>
     </h4>
-    <ul>
-        <li>Developed the littlewing.com website, where franchises can list classes</li>
-        <li>Integrate various systems together using REST APIs</li>
-        <li>Manage various vendors, including the external web development team</li>
-    </ul>
-
     <h4>
         <span class="left">Manager, Information Systems</span>
-        <span class="right">2012 - 2013</span>
+        <span class="right">Jan 2012 - Jan 2013</span>
     </h4>
+    
+    <h5>All Access (HR System)</h5>
     <ul>
         <li>
-            Systems administration and support: Google Apps, Okta (cloud SSO), Drupal, Netsuite
-            (cloud ERP), 8x8 (VOIP)
+            School of Rock is a system of mostly franchise-owned music schools. I worked in the corporate office in Burr Ridge. All Access was an HR system that I built
+            to handle a variety of internal business needs. It exposes certain admin features of Google Apps to school managers -- allowing them to create email accounts,
+            add them to groups, and control access to various other systems. It also allows employees to take training and safety tests, and exposes their progress to their
+            managers. Authentication uses Google Apps accounts, and the system checks for membership in the appropriate school or corporate group to allow access to various functionality. The system also allows corporate to track the progress of compliance across all the schools. Finally, a script can be triggered to audit the system
+            and pass data off to the corporate billing system (Netsuite) to charge schools for the Google Apps accounts licenses that they use.
         </li>
         <li>
-            Built a variety of landing web pages for the marketing department
+            Tech Stack: built in Python for Google App Engine using Ferris, and MVC framework; uses Google's proprietary NoSQL Datastore, with the ndb ORM; connects to
+            Google's APIs via built in libraries for Python on App Engine; Bootstrap for the front end; JQuery for handling requests that use Google's APIs; REST for communication
+            with the billing system, git.
+        </li>
+    </ul>
+
+    <p class="page-break"></p>
+    
+    <h5>Little Wing Website</h5>
+    <ul>
+        <li>
+            Little Wing is a program for toddlers run by School of Rock. The site, littlewing.com, allows school managers to list locations and times of classes. I built a
+            light-weight CMS for users to create and edit class entries. An auth system verifies that a user's Google Apps account is a member of that school's
+            email group. It uses Google Maps to allow site visitors to search for classes within a 50 mile area.
         </li>
         <li>
-            Built an automatically updating call volume web dashboard that shows weekly number of calls for each
-            company school versus the average
+            Tech Stack: Python using webapp2, a microframework, on Google App Engine; Google's Datastore and ndb; Google APIs for auth; Bootstrap for front end; Jquery
+            for in page requests and animations.
         </li>
-        <li>Helped formalize the project structure for new school openings (~300 tasks)</li>
+    </ul>
+
+    <h5>Ongoing Support</h5>
+    <ul>
+        <li>Other projects required ongoing support.</li>
+        <li>
+            Lead collection from various marketing landing pages: most were built as Drupal templates that embedded an external form service (SurveyGizmo), which then
+            passed off the data to a CRM via REST.
+        </li>
+        <li>
+            A dashboard on the company intranet displaying weekly phone call volume for all company schools. This displayed graphs of each school's call volume, going back 6 months.
+            It was built using Google Apps Scripts, which grabbed the data via a REST call to the phone service provider, and embedded the formatted response into a Google Spreadsheet.
+            This sheet was used to drive live-updating graphs embedded in the same spreadsheet doc, which were then displayed on the intranet.
+        </li>
+        <li>
+            A variety of other one-off requests for data to be presented on the intranet, mostly using Google Apps Scripts to collect and pass of data via backend REST calls
+            from/to Netsuite. I did a lot of data munging using Python to prepare for export to other systems.
+        </li>
+    </ul>
+
+    <h3>Indiana University</h3>
+    <h4>
+        <span class="left">Grad School (Cognitive Science)</span>
+        <span class="right">Jul 2009 - Jan 2012</span>
+    </h4>
+
+    <h5>Class/Research Projects</h5>
+    <ul>
+        <li>
+            One project I worked on at grad school was an evolutionary algorithm simulation. A population of agents was generated and played iterative rounds of the Prisoner's Dilemma,
+            with the highest scoring agents producing offspring for the next generation. This was written in Python. Another Python project I did for a class simulated flocking
+            behavior in a 2-dimensional field. It used PyGame for animation.
+        </li>
     </ul>
 
     <h3>The Doneger Group</h3>
 
     <h4>
         <span class="left">Web Developer</span>
-        <span class="right">2008 - 2009</span>
+        <span class="right">Aug 2008 - Jul 2009</span>
     </h4>
-    <ul>
-        <li>
-            Convert designs to HTML/CSS and implement the company site in RedDot CMS
-        </li>
-        <li>
-            Built a web-based utility for LDAP-authenticated employees to upload files and email external contacts
-            with a password-protected download link
-        </li>
-    </ul>
-
     <h4>
         <span class="left">Systems Admin Support</span>
-        <span class="right">2007 - 2008</span>
+        <span class="right">Jul 2007 - Aug 2008</span>
     </h4>
+
+    <h5>Company Website</h5>
     <ul>
         <li>
-            Systems Admin and support: Windows, LDAP, Exchange, IP telephony
+            Doneger is a fashion consulting agency, with a website that gives access only to paying subscribers. During my time as web developer, the site was undergoing
+            a redesign. I helped write templates (based on Photoshop designs) and adminster the backend. I also trained users to edit content and manage the approval
+            workflow for publishing.
         </li>
         <li>
-            Document administration processes
+            Tech stack: Built on the proprietary CMS RedDot; templates were in an XML-based language; some JQuery for dynamic calender views.
         </li>
     </ul>
 
-    <div class="half">
-        <h3>DOITT (NYC IT Dept.)</h3>
-        <h4>
-            <span class="left">Desktop Support</span>
-            <span class="right">2006 - 2007</span>
-        </h4>
-    </div>
-    <div class="half">
-        <h3>Brooklyn College Library</h3>
-        <h4>
-            <span class="left">Desktop Support</span>
-            <span class="right">2005 - 2006</span>
-        </h4>
-    </div>
-
+    <h5>File Sending Utility</h5>
+    <ul>
+        <li>
+            This was just before tools like Dropbox began getting popular. I built a utility that allowed employees to upload large PowerPoint presentations (over 500MB),
+            and the system would then send an email to a given client, with a link to download the file. The download page was protected by a passcode for that file and that recipient.
+        </li>
+        <li>
+            Tech stack: built in PHP on LAMP; used a PHP LDAP library to authenticate and authorize, allowing only people with accounts in MS Active Directory; files were stored
+            in the file system and other data was stored in MySQL; used Javascript to trigger the download without leaving the page.
+        </li>
+    </ul>
 </section>
 </body>
 </html>
