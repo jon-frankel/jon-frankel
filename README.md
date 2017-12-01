@@ -1,2 +1,2 @@
-# resume
+# Resume
 Résumé for Jonathan Frankel.
