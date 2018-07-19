@@ -9,23 +9,23 @@
 <header>
     <h1 id="name">JONATHAN FRANKEL</h1>
     <ul id="contact-info">
-        <li>jonathan@wikiterra.net</li>
-        <li>http://lnked.in/jon-frankel</li>
         <li>917.515.XXXX</li>
+        <li>jonathan@wikiterra.net</li>
+        <li>www.linkedin.com/in/jonathan-frankel</li>
     </ul>
 </header>
 
 <section class="highlights">
     <ul class="inline half">
         <li>Web Application Developer</li>
-        <li>8 years experience in development, systems admininstration, and support<br></li>
+        <li>10 years experience in development, systems admininstration, and support<br></li>
         <li>Additional experience in management and product ownership</li>
     </ul>
 
     <ul class="inline half">
         <li>Python</li>
         <li>PHP</li>
-        <li>MVC Frameworks (Symfony, Ferris)<br></li>
+        <li>MVC Frameworks (Symfony, Laravel)<br></li>
         <li>Javascript</li>
         <li>JQuery</li>
         <li>Angular</li>
@@ -42,28 +42,42 @@
 <section class="projects">
     <h2>Work Experience</h2>
 
+    <h3>ActiveCampaign</h3>
+
+    <h4>
+        <span class="left">Senior Software Engineer</span>
+        <span class="right">March 2017 - Present</span>
+    </h4>
+
+    <ul>
+        <li>Part of team that develops integrations between ActiveCampaign and other web services via APIs</li>
+        <li>Built intermediary service on Lumen, using worker queues</li>
+        <li>Lobbied for and implemented CSRF protection (a challenge, given legacy code)</li>
+        <li>Participate in a committee to recommend and evangalize best software practices</li>
+        <li>Presentations: dependency injection; active record vs data mapper ORM patterns; and unit testing (upcoming)</li>
+        <li>Mentor junior developers</li>
+    </ul>
+
     <h3>Caxy Interactive</h3>
 
     <h4>
         <span class="left">Project Lead &amp; Full Stack Developer</span>
-        <span class="right">Feb 2016 - Present</span>
+        <span class="right">Feb 2016 - March 2017</span>
     </h4>
 
     <ul>
-        <li>Acted as product owner for a financial management application project with a budget of $300k.</li>
+        <li>Product owner for a financial management application with a budget of $300k</li>
             <ul>
-                <li>Attended client meetings to scope out requirements; built out backlog and confirmed acceptance criteria with the client; negotiated alternative solutions where a user story was inconsistent with other requirements or did not fit into the project scope</li>
+                <li>Scope out requirements with clients, manage backlog, confirm acceptance criteria, negotiate alternative solutions where necessary</li>
                 <li>Ran architecture meetings and backlog grooming with developers to make sure planned implementations met product requirements</li>
-                <li>Performed quality assurance testing to verify that each release met client expectations</li>
+                <li>Performed QA before releasing new versions to clients</li>
             </ul>
-        <li>Acted as lead developer for a camp registration site</li>
+        <li>Lead developer for a camp registration site</li>
             <ul>
                 <li>Implemented most of the back end API using API Platform (api-platform.com), built on top of Symfony</li>
                 <li>Worked on the front end shopping cart, built in Angular 1.x, also integrated with PayPal</li>
-                <li>Project planning and architecture; reviewed code to make sure that client expectations were being met; release management using Deployer</li>
+                <li>Project planning and architecture, release management using Deployer</li>
             </ul>
-        <li>Currently working on a new project for the organization that produces safety ordinances; working on the front end in React + Redux</li>
-        <li>Meet with the CEO to review project pitches; write up SOW's, including breaking down requirements into user stories along with their estimates</li>
     </ul>
 
     <h4>
@@ -72,13 +86,10 @@
     </h4>
 
     <ul>
-        <li>Worked as part of a team (4-8 developers over the year) using the Agile & Scrum processes; standups, retrospectives, backlog grooming, kanban, etc.</li>
-        <li>Worked on an ongoing web application project that provides an online legislative processes around the creation and modification of safety ordinances (e.g., building and construction codes). Users are able to propose changes and then vote on proposals through a series of phases. Admin staff can then ensure the adherence to the legislative process.</li>
-        <li>Built with the PHP framework Symfony (v2 and then v3), along with a mix of jQuery and Angular on the front end (the project was start before Angular became popular). The team used the GitHub flow process, and we all participated in code review.</li>
-        <li>Implemented a deployment process using Deployer (a Capistrano clone in PHP); acted as release manager (creating tags in Git and releases in JIRA).</li>
+        <li>Worked on a Symfony + Angularjs application that facilitates voting on proposals as part of a legislative process</li>
+        <li>Deployment manager, using Deployer (a Capistrano clone in PHP)</li>
+        <li>Agile & Scrum based team, Code review, GitHub flow</li>
     </ul>
-
-    <div class="page-break"></div>
 
     <h3>School of Rock</h3>
 
@@ -88,15 +99,18 @@
     </h4>
 
     <ul>
-        <li>Developed a web based HR and account management platform.</li>
-            <li>School managers are able to register their employees, check the status of safety training, and if they have passed training turn on systems accounts (G Suite account and others) and add them to email groups.</li>
-            <li>Corporate employees are able to see which schools have employees who have not completed safety training, and view a dashboard of centralized information of schools, employees, and contact info.</li>
-            <li>The system also allows the accounting department to generate a report of employees with logins in order to generate the schools' monthly service charge for license usage.</li>
-            <li>Built on Google App Engine with Python using the Ferris framework, similar to Django. Uses Google's message queue system to process multiple background API calls, in order to set up external system accounts.</li>
+        <li>Developed a web based HR and account management platform (App Engine with Python)</li>
+            <ul>
+                <li>Allows school managers to register employees, check the status of safety training, manage account access to various systems if training is passed</li>
+                <li>Provides a dashbaord of training compliance for corporate employees</li>
+                <li>Provides corporate accounting an integration with their platform to bill franchises for account licenses used</li>
+            </ul>
         <li>Plan out IT strategy and scope out projects within specified budget</li>
-        <li>Negotiate contracts with vendors and consultants, and manage their execution of various projects</li>
+        <li>Scope out work with vendors and consultants, and manage their execution of various projects</li>
         <li>Manage internal staff and external vendors for the main website redesign and platform migration</li>
     </ul>
+
+    <div class="page-break"></div>
 
     <h4>
         <span class="left">Senior Manager, Information Systems</span>
@@ -104,8 +118,7 @@
     </h4>
 
     <ul>
-        <li>Implemented a lightweight content management system for littlewing.com. Uses permission scheme based on membership in Google Groups to allow franchise owners editing access to only their locations. Also features a Google Maps based class finder. Built on Google App Engine in Python (using the webapp2 framework).</li>
-        <li>Develop and maintain systems for internal human resource system: manage the lead lifecycle; registering employee accounts (built on Netsuite, which uses a variant of Javascript to create REST endpoints)</li>
+        <li>Implemented a lightweight, map-based class finding using Google Maps, with editing permissions based on membership in Google Groups (App Engine with Python)</li>
         <li>Integrate various systems together using REST APIs, including Netsuite, Zendesk, and SurveyGizmo</li>
     </ul>
 
@@ -116,7 +129,7 @@
 
     <ul>
         <li>Built a variety of landing web pages for marketing department to collect leads (PHP)</li>
-        <li>Built an automatically updating call volume web dashboard that shows weekly number of calls for each company school versus the average (using Google Apps Script and graphs embedded in Google Sheets).</li>
+        <li>Built an automatically updating call volume dashboard</li>
         <li>Helped organize and implement project management for new school openings</li>
         <li>Provide systems support and training</li>
     </ul>
