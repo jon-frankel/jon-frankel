@@ -1,2 +1,2 @@
-# resume
-Résumé for Jonathan Frankel
+# Resume
+Résumé for Jonathan Frankel.
